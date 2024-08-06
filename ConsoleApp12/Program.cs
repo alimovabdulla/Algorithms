@@ -1,4 +1,5 @@
 ﻿
+
 /*ATM maşınları 4 və ya 6 rəqəmli PİN kodlara icazə verir və PİN kodlar tam 4 və ya 6 rəqəmdən başqaheç nə
  ehtiva edə bilməz. Funksiya etibarlı PIN sətrini ötürübsə, qaytarın true, əks halda qaytarın false*/
 #region 
@@ -61,5 +62,50 @@ Metod boolean qaytarmalı və hərflərə həssas olmalıdır. Sətirdə istəni
 
 #endregion
 
+/*Timmy və Sarah aşiq olduqlarını düşünürlər, lakin yaşadıqları yerdən yalnız hər biri bir çiçək götürdükdən sonra biləcəklər.
+ Çiçəklərdən birinin ləçəkləri cüt, digərinin isə tək sayda ləçəkləri varsa, deməli, onlar aşiqdirlər.
+Hər bir çiçəyin ləçəklərinin sayını götürəcək və aşiq olduqda doğru, sevmədikdə isə yalana dönəcək funksiya yazın.*/
+#region
+//public class LoveDetector
+//{
+//    public bool LoveFunc(int flower1, int flower2)
+//    {
+//        // Çiçəklərin ləçəklərinin sayı cüt və ya tək olduğunu yoxlayın
+//        bool flower1IsEven = flower1 % 2 == 0;
+//        bool flower2IsEven = flower2 % 2 == 0;
 
- 
+//        // Şərtləri yoxlayın: biri cüt, digəri isə tək olmalıdır
+//        return flower1IsEven != flower2IsEven;
+//    }
+//}
+#endregion
+
+/*Tam ədədlərin boş olmayan massivini nəzərə alaraq, dəyərləri ardıcıllıqla birlikdə vurmağın nəticəsini qaytarın.*/
+#region
+//public class Kata
+//{
+//    public static int Grow(int[] x)
+//    {
+//        int cvb = 1;
+//        foreach (var i in x)
+//        {
+
+//            cvb *= i;
+//        }
+//        return cvb;
+
+//    }
+//}
+
+#endregion
+/*Rəqəmlər toplusunu nəzərə alaraq, hər birinin əksini qaytarın. Hər bir müsbət mənfi, mənfi isə müsbət olur.*/
+#region
+//public static class ArraysInversion
+//{
+//    public static int[] InvertValues(int[] input)
+//    {
+//        return input.Select(x => -x).ToArray();
+//    }
+//}
+
+#endregion

@@ -7,9 +7,5 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp12
 {
-    public static class Cart
-    {
- 
-
-    }
+   
 }
