@@ -1,5 +1,7 @@
 ﻿
 
+
+
 /*ATM maşınları 4 və ya 6 rəqəmli PİN kodlara icazə verir və PİN kodlar tam 4 və ya 6 rəqəmdən başqaheç nə
  ehtiva edə bilməz. Funksiya etibarlı PIN sətrini ötürübsə, qaytarın true, əks halda qaytarın false*/
 #region 
@@ -108,4 +110,81 @@ Hər bir çiçəyin ləçəklərinin sayını götürəcək və aşiq olduqda do
 //    }
 //}
 
+#endregion
+
+/*gecə yarısından sonra saat, dəqiqə və saniyələri millisekundlara çevirmək üçün bir funksiya yazmaq lazimdir.
+ Verilən h, m, və s dəyişənləri əsasında vaxtı millisekundlarda hesabla (h-saat, m-degige, s-saniyedir) */
+#region
+
+//public static class Clock
+//{
+//    static int results = 0;
+//    public static int Past(int h, int m, int s)
+//    {
+//        int saat = h * 60 * 60 * 1000;
+//        int degige = m * 60 * 10 * 10 * 10;
+//        int saniye = s * 1000;
+//        results = saat + degige + saniye;
+//        return results;
+
+
+//    }
+//}
+
+#endregion
+
+
+/*Sinifinizdə imtahan var idi və siz ondan keçdiniz. Təbrik edirik!
+Amma siz iddialı insansınız. Sinifinizdəki orta şagirddən daha yaxşı olub-olmadığınızı bilmək istəyirsiniz.
+Siz həmyaşıdlarınızın test balları ilə bir sıra alırsınız. İndi ortalamanı hesablayın və xalınızı müqayisə edin!
+trueƏgər daha yaxşısınızsa, geri qayıdın , əks halda false!
+Qeyd:
+Sizin xallarınız sinifinizin balları sırasına daxil edilmir. Orta balı hesablayarkən onları unutma!*/
+#region
+//public class Kata
+//{
+
+
+//    public static bool BetterThanAverage(int[] ClassPoints, int YourPoints)
+//    {
+//        int count = ClassPoints.Length;
+//        int sum = 0;
+//        foreach (var item in ClassPoints)
+//        {
+
+//            sum += item;
+
+
+//        }
+//        var result = sum / count;
+//        return result < YourPoints;
+
+//    }
+//}
+
+
+#endregion
+
+/*Tam ədədlərin siyahısını verərək, onun elementlərinin cəminin tək və ya cüt olduğunu müəyyənləşdirin.
+Cavabınızı sətir uyğunluğu "odd"və ya kimi verin "even".
+Əgər giriş massivi boşdursa, onu belə hesab edin: [0](sıfır olan massiv).*/
+#region
+
+//public class Kata
+//{
+//    public static string OddOrEven(int[] array)
+//    {
+//        int result = 0;
+//        foreach (int i in array)
+//        {
+//            result += i;
+//        }
+//        if (result % 2 == 0)
+//        {
+//            return "even";
+//        }
+//        return "odd";
+//    }
+
+//}
 #endregion
